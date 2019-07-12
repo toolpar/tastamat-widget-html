@@ -1,6 +1,8 @@
 # Tastamat Widget
 
-This widget should be used to 
+Simple widget to integrate into HTML page. Widget allows selection of available [Tastamat](https://tastamat.kz) lockers located in [Nur-Sultan](https://en.wikipedia.org/wiki/Nur-Sultan) and [Almaty](https://en.wikipedia.org/wiki/Almaty) cities for postal and order deliveries.
+
+When selected locker fields like `address`, `city` and `zipcode` (`postcode` or `index`) are available for further usage while making orders.
 
 ## Steps to integrate Tastamat Widget
 
