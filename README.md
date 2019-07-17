@@ -27,10 +27,11 @@ When selected locker fields like `address`, `city` and `zipcode` (`postcode` or 
     ```
     <script
         type="text/javascript"
-        src="https://tastamat.kz/widget/script.js"
+        src="https://tastamat.kz/widget/script-1.1.0.js"
         data-width="500px"
         data-height="500px"
         data-apikey="<YANDEX_MAPS_API_KEY>"
+        data-status="<TASTAMAT_STATUS>"
         data-addressid="<idOfTheAddressInputElement>"
         data-cityid="<idOfTheCityInputElement>"
         data-indexid="<idOfTheZipCodeInputElement>"
@@ -45,6 +46,10 @@ When selected locker fields like `address`, `city` and `zipcode` (`postcode` or 
     
     Additional attributes:
 
+    - data-status - locker status at the moment of request:
+        - `ON,OFF` *or* leave _blank_ *or* omit the attribute - both ON and OFF statuses (preferred option as lockers usually stay offline only for a short period of time)
+        - `ON` - only active lockers
+        - `OFF` - only disabled/offline lockers
     - data-addressid - `<input>` HTML element ID for address
     - data-cityid - `<input>` HTML element ID for city name
     - data-indexid - `<input>` HTML element ID for zip code (postal code)
